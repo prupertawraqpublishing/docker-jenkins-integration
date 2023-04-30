@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoApplication {
 	@GetMapping("/index1")
 	public String index() {
-		return "Greetings from Spring Boot!";
+		return "Greetings from Spring Boot  - index 1!";
 	}
 	
 	public static void main(String[] args) {

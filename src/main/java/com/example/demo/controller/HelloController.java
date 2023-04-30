@@ -9,4 +9,9 @@ public class HelloController {
 	public String index() {
 		return "Greetings from Spring Boot!";
 	}
+	
+	@GetMapping("/index/v1")
+	public String index1() {
+		return "Calling /index/v1 .....!";
+	}
 }
